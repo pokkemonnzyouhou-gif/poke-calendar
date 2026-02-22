@@ -33,3 +33,8 @@ function generateCalendar() {
 }
 
 generateCalendar();
+html += "</tr></table>";
+calendar.innerHTML = html;
+}
+
+generateCalendar();
