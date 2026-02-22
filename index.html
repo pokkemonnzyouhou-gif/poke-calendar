@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+<style>
+.poke-cal{
+  width:100%;
+  border-collapse:collapse;
+  text-align:center;
+}
+.poke-cal th,.poke-cal td{
+  border:1px solid #ccc;
+  height:80px;
+  vertical-align:top;
+}
+.poke-cal td a{
+  text-decoration:none;
+  color:#000;
+  display:block;
+  height:100%;
+}
+.event{
+  font-size:10px;
+  margin-top:5px;
+}
+
+/* 種類別 */
+.center{background:#ffe0e0;}
+.cafe{background:#e0f0ff;}
+.park{background:#e0ffe0;}
+
+/* 今日 */
+.today{
+  border:3px solid red;
+}
+</style>
+  <head>
   <meta charset="UTF-8">
   <title>ポケモンイベントカレンダー</title>
 </head>
